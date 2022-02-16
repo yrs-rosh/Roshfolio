@@ -11,14 +11,14 @@ import { Container, Grid } from "@mui/material";
 function Portfolio() {
   return (
     <div className="frontpage pagesize">
-      <Container className="pro">
+      <Container >
         <h1>Projects</h1>
         <Grid container spacing={3}>
           <Grid item sm={4}>
-            <Card className="card" sx={{ maxWidth: 300 }}>
+            <Card sx={{ maxWidth: 300 }} style={{backgroundColor: "rgba(18,18,18,0.5)"}}>
               <CardMedia component="img" height="160" image="portfolio.png" />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h5" style={{color: "white", fontWeight:600}} component="div">
                   Roshfolio
                 </Typography>
                 <Typography variant="body2" color="white">
@@ -26,17 +26,17 @@ function Portfolio() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                <Button size="small"><a href="" target="_blank">View</a></Button>
+                <Button size="small"><a href="" target="_blank">View</a></Button>
               </CardActions>
             </Card>
           </Grid>
 
           <Grid item sm={4}>
-            <Card className="card" sx={{ maxWidth: 300 }}>
+            <Card style={{backgroundColor: "rgba(18,18,18,0.5)"}} sx={{ maxWidth: 300 }}>
               <CardMedia component="img" height="160" image="spotify.png" />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h5" style={{color: "white", fontWeight:600}} component="div">
                   Spotify Web UI
                 </Typography>
                 <Typography variant="body2" color="white">
@@ -44,19 +44,19 @@ function Portfolio() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"><a href="https://yrs-rosh.github.io/spotify/" target="_blank">View</a>
+                <Button size="small"><a href="" target="_blank">View</a>
                 </Button>
-                <Button size="small">Learn More</Button>
+                <Button size="small"><a href="" target="_blank">View</a></Button>
               </CardActions>
             </Card>
           </Grid>
           
 
           <Grid item sm={4}>
-            <Card className="card" color sx={{ maxWidth: 300 }}>
+            <Card style={{backgroundColor: "rgba(18,18,18,0.5)"}} color sx={{ maxWidth: 300 }}>
               <CardMedia component="img" height="160" image="roshtro.png" />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h5" style={{color: "white", fontWeight:600}} component="div">
                   Roshtro
                 </Typography>
                 <Typography variant="body2" color="white">
@@ -64,8 +64,8 @@ function Portfolio() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                <Button size="small"><a href="" target="_blank">View</a></Button>
+                <Button size="small"><a href="" target="_blank">View</a></Button>
               </CardActions>
             </Card>
           </Grid>
