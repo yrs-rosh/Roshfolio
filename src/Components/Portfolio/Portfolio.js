@@ -44,7 +44,8 @@ function Portfolio() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
+                <Button size="small"><a href="https://yrs-rosh.github.io/spotify/" target="_blank">View</a>
+                </Button>
                 <Button size="small">Learn More</Button>
               </CardActions>
             </Card>
