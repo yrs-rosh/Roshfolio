@@ -1,0 +1,196 @@
+.title{
+    width: fit-content;
+    height: 30px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 0 30px;
+    padding: 0 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.title-wrapper{
+    height: 100%;
+    animation: move 3s ease-in-out infinite alternate;
+}
+@keyframes move {
+    50%{transform: translateY(-30px);}
+    100%{transform: translateY(-60px);}
+    
+}
+
+.title-item{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    
+    font-weight: 600;
+    color: #32F30C;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.intro{
+    
+    text-align: center;
+    font-weight: 400;
+    line-height: 10mm;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    z-index: 10005;
+}
+
+.greet{
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  border-radius: 40px;
+  height: 30px;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 10px 30px;
+  margin: 0;
+  width: fit-content;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    height: 70px;
+    font-size: 70px;
+    font-weight: 400;
+    padding: 10px 30px;
+    margin: 10px 20px;
+}
+
+.dp{
+    background-image: url(../../asset/profile.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    z-index: 1005;
+}
+
+.dp:hover{
+    border-radius: 20%;
+}
+
+
+
+/* background animation */
+.leaf {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    left: 20%;
+  }
+  .leaf img{
+
+    width: 100px;
+    height: 100px;
+  }
+  .leaf div {
+    position: absolute;
+    display: block;
+  }
+  .leaf div:nth-child(1) {
+    left: 5%;
+    top: 10%;
+    animation: fall 5s linear infinite;
+    animation-delay: -2s;
+  }
+  .leaf div:nth-child(2) {
+    left: 17%;
+    top: 50%;
+    animation: fall 4s linear infinite;
+    animation-delay: -4s;
+  }
+  .leaf div:nth-child(3) {
+    left: 35%;
+    top: 80%;
+    animation: fall 3s linear infinite;
+    animation-delay: -7s;
+  }
+  .leaf div:nth-child(4) {
+    left: 50%;
+    top: 50%;
+    animation: fall 4s linear infinite;
+    animation-delay: -4s;
+  }
+  .leaf div:nth-child(5) {
+    left: 65%;
+    top: 10%;
+    animation: fall 5s linear infinite;
+    animation-delay: -4s;
+  }
+  .leaf div:nth-child(6) {
+    left: 77%;
+    top: 80%;
+    animation: fall 3s linear infinite;
+    animation-delay: -4s;
+  }
+  
+  @keyframes fall {
+    0% {
+      top: -10%;
+      opacity: 1;
+    }
+    50% {
+      transform: rotate(180deg);
+      opacity: 0.96;
+    }
+    100% {
+      top: 110%;
+      transform: rotate(360deg);
+      opacity: 0.2;
+    }
+  }
+/* background animation */
+
+@media only screen and (max-width: 1000px) {
+    .dp{
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .leaf{
+        width: 80%;
+        left: 0;
+        height: 70%;
+    }
+
+    .intro{
+        text-align: center;
+        font-size: 1vw;
+    }
+    
+    .title{
+        font-size: 3vh;
+    }
+
+    .name{
+      height: 4vh;
+        font-size: 4vh;
+        margin: 0;
+    }
+
+    .greet{
+      font-size: 2vh;
+      
+    }
+
+    .leaf img{
+        width: 70px;
+        height: 70px;
+    }
+  }
+
+
