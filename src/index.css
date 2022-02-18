@@ -12,11 +12,4 @@ code {
     monospace;
 }
 
-a{
-  color: aliceblue;
-}
-a:hover{
-  color: aqua;
-  transform: scale(1.5);
-  transition: 0.3s ease-in-out;
-}
+

@@ -5,6 +5,8 @@ import Aboutme from "./Aboutme/Aboutme";
 
 import Skills from "./Skills/Skills";
 import Portfolio from "./Portfolio/Portfolio";
+import Contact from "./Contact/Contact";
+import Volunteering from "./Volunteering/Volunteering";
 
 
 export class Main extends Component {
@@ -27,6 +29,8 @@ export class Main extends Component {
         <Aboutme />
         <Skills />
         <Portfolio />
+        <Volunteering />
+        <Contact />
       </div>
     );
   }

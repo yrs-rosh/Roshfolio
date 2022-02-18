@@ -10,8 +10,8 @@ import { Container, Grid } from "@mui/material";
 
 function Portfolio() {
   return (
-    <div className="frontpage pagesize">
-      <Container >
+    <div className="frontpage">
+    <div className='container'>
         <h1>Projects</h1>
         <Grid container spacing={3}>
           <Grid item sm={4}>
@@ -26,8 +26,8 @@ function Portfolio() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"><a href="" target="_blank">View</a></Button>
-                <Button size="small"><a href="" target="_blank">View</a></Button>
+                <Button size="small"><a href="https://roshroy.netlify.app/" target="_blank">View</a></Button>
+                <Button size="small"><a href="https://github.com/yrs-rosh/Roshfolio" target="_blank">Code</a></Button>
               </CardActions>
             </Card>
           </Grid>
@@ -44,9 +44,9 @@ function Portfolio() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"><a href="" target="_blank">View</a>
+                <Button size="small"><a href="https://yrs-rosh.github.io/spotify/" target="_blank">View</a>
                 </Button>
-                <Button size="small"><a href="" target="_blank">View</a></Button>
+                <Button size="small"><a href="https://github.com/yrs-rosh/spotify" target="_blank">Code</a></Button>
               </CardActions>
             </Card>
           </Grid>
@@ -64,14 +64,14 @@ function Portfolio() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"><a href="" target="_blank">View</a></Button>
-                <Button size="small"><a href="" target="_blank">View</a></Button>
+                <Button size="small"><a href="https://yrs-rosh.github.io/Roshtro/" target="_blank">View</a></Button>
+                <Button size="small"><a href="https://github.com/yrs-rosh/Roshtro" target="_blank"> Code</a></Button>
               </CardActions>
             </Card>
           </Grid>
 
         </Grid>
-      </Container>
+        </div>
     </div>
   );
 }

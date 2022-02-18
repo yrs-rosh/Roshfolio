@@ -16,7 +16,7 @@ import figmaicon from "./figma.png";
 function Skills() {
   return (
     <>
-      <div className="frontpage pagesize">
+      <div id="skills" className="frontpage pagesize">
         <div className="container">
           <h1>Tech I'm familiar with</h1>
           <div>
@@ -40,12 +40,12 @@ function Skills() {
                 <img src={htmlicon}></img>
 
                 <img src={cssicon}></img>
-
-                <img src={bootsicon}></img>
-
+                
                 <img src={reacticon}></img>
 
                 <img src={nodeicon}></img>
+
+                <img src={bootsicon}></img>
               </div>
             </div>
             <div className="block">

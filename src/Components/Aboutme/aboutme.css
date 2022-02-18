@@ -1,6 +1,12 @@
+.text{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2vw;
+    background-color: rgba(18, 18, 18, 0.5);
 
+}
 @media only screen and (max-width: 1000px){
-    /* .text{
-        font-size: 20px;
-    } */
+    .text{
+        font-size: 4vw;
+    }
 }

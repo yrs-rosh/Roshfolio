@@ -1,27 +1,37 @@
-import React, { Component } from 'react'
-import Logo from './Logo';
-import Sidelinks from './Sidelinks';
-import Social from './Social';
+
+import React, { Component } from "react";
+import Social from "./Social";
 
 class Sidebar extends Component {
-
-  state={
-    tabs : ['About me','Skills','Certifications','portfolio','Volunteering','Connect with Rosh']
-  }
-
-  
   render() {
     return (
-      <div>
-          <div className='sidebar'>
-          <Logo />
-          {this.state.tabs.map(tab => <Sidelinks tab = {tab}/>)}
-           <Social /> 
-           <div>© yrs_rosh 2022</div>
-          </div>
+      <div className="sidebar">
+        <div className="logo">
+          <a href="/">/Rosh</a>
+        </div>
+        <div className="sidelinks">
+          <a href="/error">About me</a>{" "}
+        </div>
+        <div className="sidelinks">
+          <a href="#">Skills</a>{" "}
+        </div>
+        <div className="sidelinks">
+          <a href="#">Projects</a>{" "}
+        </div>
+        <div className="sidelinks">
+          <a href="#">Volunteering</a>{" "}
+        </div>
+        <div className="sidelinks">
+          <a href="#">Keep in touch</a>{" "}
+        </div>
+
+        <Social />
+        <div>
+          © <a href="#">yrs_rosh</a> 2022
+        </div>
       </div>
-    )
+    );
   }
 }
 
-export default Sidebar
+export default Sidebar;
