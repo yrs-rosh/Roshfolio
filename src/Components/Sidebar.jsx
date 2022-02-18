@@ -1,33 +1,36 @@
 
 import React, { Component } from "react";
 import Social from "./Social";
+import { Link, NavLink } from "react-router-dom";
 
 class Sidebar extends Component {
   render() {
     return (
       <div className="sidebar">
         <div className="logo">
-          <a href="/">/Rosh</a>
+          <NavLink exact to="/">Rosh</NavLink>
         </div>
         <div className="sidelinks">
-          <a href="/error">About me</a>{" "}
+        <NavLink activeClassName="active" to="/about">About</NavLink>
         </div>
         <div className="sidelinks">
-          <a href="#">Skills</a>{" "}
+        <NavLink activeClassName="active" to="/skills">Skills</NavLink>
+
+          
         </div>
         <div className="sidelinks">
-          <a href="#">Projects</a>{" "}
+        <NavLink activeClassName="active" to="/projects">Projects</NavLink>
         </div>
         <div className="sidelinks">
-          <a href="#">Volunteering</a>{" "}
+        <NavLink activeClassName="active" to="/volunteering">Volunteering</NavLink>
         </div>
         <div className="sidelinks">
-          <a href="#">Keep in touch</a>{" "}
+        <NavLink activeClassName="active" to="/connect">Connect</NavLink>
         </div>
 
         <Social />
         <div>
-          © <a href="#">yrs_rosh</a> 2022
+          © <a target="_blank" href="https://github.com/yrs-rosh">yrs_rosh</a> 2022
         </div>
       </div>
     );

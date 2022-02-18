@@ -17,7 +17,7 @@ function Contact() {
           >
             <CardContent align="left">
             <Typography variant="h6" >
-                  If you like my work and wanna peer coding or collaborate on projects, please ping me anywhere listed below. My inbox is always open🥰
+            Thank you for visiting my personal portfolio website. Connect with me over socials 🥰. If you want to collaborate or share something, do ping me over there. My inbox is always open.
                 </Typography>
               <Typography
                 gutter

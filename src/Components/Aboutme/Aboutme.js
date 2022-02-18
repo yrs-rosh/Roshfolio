@@ -4,7 +4,7 @@ import "./aboutme.css";
 
 function Aboutme() {
   return (
-    <div className=" frontpage">
+    <div className=" frontpage pagesize">
       <div className="container">
         <h1>About Me</h1>
         <div className="text">

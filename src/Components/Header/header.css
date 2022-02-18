@@ -111,7 +111,7 @@
     left: 17%;
     top: 50%;
     animation: fall 4s linear infinite;
-    animation-delay: -4s;
+    animation-delay: -7s;
   }
   .leaf div:nth-child(3) {
     left: 35%;
@@ -132,7 +132,7 @@
     animation-delay: -4s;
   }
   .leaf div:nth-child(6) {
-    left: 77%;
+    left: 85%;
     top: 80%;
     animation: fall 3s linear infinite;
     animation-delay: -4s;
@@ -141,16 +141,14 @@
   @keyframes fall {
     0% {
       top: -10%;
-      opacity: 1;
     }
     50% {
+      top: 100%;
       transform: rotate(180deg);
-      opacity: 0.96;
     }
     100% {
-      top: 110%;
+      top: -10%;
       transform: rotate(360deg);
-      opacity: 0.2;
     }
   }
 /* background animation */
