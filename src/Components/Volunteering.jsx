@@ -33,7 +33,7 @@ function Volunteering() {
           <CardMedia
             component="img"
             sx={{ width: 100 , height: 100}}
-            image="cn.jpeg"
+            image="/asset/cn.jpeg"
             alt="Live from space album cover"
           />
         </Card>
@@ -58,7 +58,7 @@ function Volunteering() {
           <CardMedia
             component="img"
             sx={{ width: 100, height:100}}
-            image="debuggerzz.png"
+            image="/asset/debuggerzz.png"
             alt="Live from space album cover"
           />
         </Card>

@@ -1,12 +1,5 @@
 import React, { Component } from "react";
-import "./header.css";
-import jsicon from "./js.png";
-import reacticon from "./react.png";
-import pythonicon from "./python.png";
-import javaicon from "./java.png";
-import giticon from "./git.png";
-import vsicon from "./vs.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../Style/components.css";
 
 class Header extends Component {
   render() {
@@ -35,7 +28,9 @@ class Header extends Component {
           <div>
           <i className="fa-brands fa-java fa-3x"></i>
           </div>
-          
+          <div>
+          <i className="fa-brands fa-node fa-3x"></i>
+          </div>
           <div>
           <i className="fa-brands fa-github fa-3x"></i>
           </div>

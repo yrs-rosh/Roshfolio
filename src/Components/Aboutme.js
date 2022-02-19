@@ -1,6 +1,7 @@
 import { Button } from "@mui/material";
 import React from "react";
-import "./aboutme.css";
+import { Link } from "react-router-dom";
+import "../Style/components.css";
 
 function Aboutme() {
   return (
@@ -15,9 +16,12 @@ function Aboutme() {
             and open-source projects. Currently I'm learning Reactjs and looking
             for opportunity as a react dev.{" "}
           </p>
+          <Link to="/more">
           <Button variant="contained" href="/notfound">
             know more about me
           </Button>
+          </Link>
+          
         </div>
       </div>
     </div>

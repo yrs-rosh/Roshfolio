@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Header from "./Header/Header";
+import Header from "./Header";
 
-import Aboutme from "./Aboutme/Aboutme";
+import Aboutme from "./Aboutme";
 
-import Skills from "./Skills/Skills";
-import Portfolio from "./Portfolio/Portfolio";
-import Contact from "./Contact/Contact";
-import Volunteering from "./Volunteering/Volunteering";
+import Skills from "./Skills";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
+import Volunteering from "./Volunteering";
 
 
 export class Main extends Component {

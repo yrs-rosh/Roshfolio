@@ -3,7 +3,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import { Box, CardMedia, Container, Grid } from "@mui/material";
-import Social from "../Social";
+import Social from "../Components/Social";
 
 function Contact() {
   return (

@@ -1,16 +1,16 @@
 import './App.css';
-import './components.css'
+import '../src/Style/components.css'
 
 import Sidebar from './Components/Sidebar';
 import Main from './Components/Main';
 import { Link, Route, Routes } from 'react-router-dom';
 import UnderConstruction from './UnderConstruction';
 import Notfound from './Notfound';
-import Aboutme from './Components/Aboutme/Aboutme';
-import Skills from './Components/Skills/Skills';
-import Portfolio from './Components/Portfolio/Portfolio';
-import Contact from './Components/Contact/Contact';
-import Volunteering from './Components/Volunteering/Volunteering';
+import Aboutme from './Components/Aboutme';
+import Skills from './Components/Skills';
+import Portfolio from './Components/Portfolio';
+import Contact from './Components/Contact';
+import Volunteering from './Components/Volunteering';
 import HomeIcon from '@mui/icons-material/Home';
 function App() {
   return (
