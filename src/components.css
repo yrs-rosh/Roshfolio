@@ -178,4 +178,8 @@ a:hover{
       align-items: center;
       width: 100%;
   }
+
+  .autosize{
+    height: auto;
+  }
 }

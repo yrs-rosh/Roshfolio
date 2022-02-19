@@ -10,7 +10,7 @@ import { Container, Grid } from "@mui/material";
 
 function Portfolio() {
   return (
-    <div className="frontpage pagesize">
+    <div className="frontpage pagesize autosize">
     <div className='container'>
         <h1>Projects</h1>
         <Grid container spacing={3}>
