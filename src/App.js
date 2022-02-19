@@ -3,7 +3,7 @@ import './components.css'
 
 import Sidebar from './Components/Sidebar';
 import Main from './Components/Main';
-import { Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import UnderConstruction from './UnderConstruction';
 import Notfound from './Notfound';
 import Aboutme from './Components/Aboutme/Aboutme';
@@ -11,10 +11,13 @@ import Skills from './Components/Skills/Skills';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Contact from './Components/Contact/Contact';
 import Volunteering from './Components/Volunteering/Volunteering';
-
+import HomeIcon from '@mui/icons-material/Home';
 function App() {
   return (
     <div className="App">
+    <Link to="/"><div className='back'><HomeIcon sx={{ fontSize: 40}}/></div></Link>
+          
+
       <Sidebar/>
       <Routes>
       

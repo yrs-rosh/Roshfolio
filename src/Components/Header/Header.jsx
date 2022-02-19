@@ -6,6 +6,7 @@ import pythonicon from "./python.png";
 import javaicon from "./java.png";
 import giticon from "./git.png";
 import vsicon from "./vs.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Header extends Component {
   render() {
@@ -14,22 +15,29 @@ class Header extends Component {
         {/* Animation */}
         <div class="leaf">
           <div>
-            <img src={jsicon}></img>
+          <i className="fa-brands fa-html5 fa-3x"></i>
           </div>
           <div>
-            <img src={reacticon}></img>
+          <i className="fa-brands fa-python fa-3x"></i>
           </div>
           <div>
-            <img src={giticon}></img>
+          <i className="fa-brands fa-react fa-3x"></i>
           </div>
           <div>
-            <img src={javaicon}></img>
+          <i className="fa-brands fa-git-alt fa-3x"></i>
           </div>
           <div>
-            <img src={pythonicon}></img>
+          <i className="fa-brands fa-js-square fa-3x"></i>
           </div>
           <div>
-            <img src={vsicon}></img>
+          <i className="fa-brands fa-css3-alt fa-3x"></i>
+          </div>
+          <div>
+          <i className="fa-brands fa-java fa-3x"></i>
+          </div>
+          
+          <div>
+          <i className="fa-brands fa-github fa-3x"></i>
           </div>
         </div>
 

@@ -16,7 +16,8 @@ function Portfolio() {
         <Grid container spacing={3}>
           <Grid item sm={4}>
             <Card sx={{ maxWidth: 300 }} style={{backgroundColor: "rgba(18,18,18,0.5)"}}>
-              <CardMedia component="img" height="160" image="portfolio.png" />
+            <a href="https://roshroy.netlify.app/" target="_blank"><CardMedia component="img" height="160" image="portfolio.png" /></a>
+              
               <CardContent>
                 <Typography gutterBottom variant="h5" style={{color: "white", fontWeight:600}} component="div">
                   Roshfolio
@@ -34,7 +35,7 @@ function Portfolio() {
 
           <Grid item sm={4}>
             <Card style={{backgroundColor: "rgba(18,18,18,0.5)"}} sx={{ maxWidth: 300 }}>
-              <CardMedia component="img" height="160" image="spotify.png" />
+            <a href="https://yrs-rosh.github.io/spotify/" target="_blank"><CardMedia component="img" height="160" image="spotify.png" /></a>
               <CardContent>
                 <Typography gutterBottom variant="h5" style={{color: "white", fontWeight:600}} component="div">
                   Spotify Web UI
@@ -54,7 +55,7 @@ function Portfolio() {
 
           <Grid item sm={4}>
             <Card style={{backgroundColor: "rgba(18,18,18,0.5)"}} color sx={{ maxWidth: 300 }}>
-              <CardMedia component="img" height="160" image="roshtro.png" />
+            <a href="https://yrs-rosh.github.io/Roshtro/" target="_blank"><CardMedia component="img" height="160" image="roshtro.png" /></a>
               <CardContent>
                 <Typography gutterBottom variant="h5" style={{color: "white", fontWeight:600}} component="div">
                   Roshtro
