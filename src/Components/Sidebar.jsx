@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import Social from "./Social";
 import { Link, NavLink } from "react-router-dom";
+import { Book, DeveloperMode, Person, Send, VolunteerActivismRounded } from "@mui/icons-material";
 
 class Sidebar extends Component {
   render() {
@@ -11,21 +12,21 @@ class Sidebar extends Component {
           <NavLink exact to="/">Rosh</NavLink>
         </div>
         <div className="sidelinks">
-        <NavLink activeClassName="active" to="/about">About</NavLink>
+        <NavLink activeClassName="active" to="/about"><Person/> About</NavLink>
         </div>
         <div className="sidelinks">
-        <NavLink activeClassName="active" to="/skills">Skills</NavLink>
+        <NavLink activeClassName="active" to="/skills"><Book/> Skills</NavLink>
 
           
         </div>
         <div className="sidelinks">
-        <NavLink activeClassName="active" to="/projects">Projects</NavLink>
+        <NavLink activeClassName="active" to="/projects"><DeveloperMode/> Projects</NavLink>
         </div>
         <div className="sidelinks">
-        <NavLink activeClassName="active" to="/volunteering">Volunteering</NavLink>
+        <NavLink activeClassName="active" to="/volunteering"><VolunteerActivismRounded/> Volunteering</NavLink>
         </div>
         <div className="sidelinks">
-        <NavLink activeClassName="active" to="/connect">Connect</NavLink>
+        <NavLink activeClassName="active" to="/connect"><Send/> Connect</NavLink>
         </div>
 
         <Social />
