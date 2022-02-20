@@ -12,10 +12,10 @@ import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
 import Volunteering from './Components/Volunteering';
 import HomeIcon from '@mui/icons-material/Home';
+import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
-    <Link to="/"><div className='back'><HomeIcon sx={{ fontSize: 40}}/></div></Link>
           
 
       <Sidebar/>
@@ -31,6 +31,7 @@ function App() {
       <Route path='/more' element={<UnderConstruction className="pagesize" />}/>
       <Route path='*' element={<Notfound />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }

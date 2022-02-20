@@ -30,7 +30,7 @@ class Sidebar extends Component {
 
         <Social />
         <div>
-          © <a target="_blank" href="https://github.com/yrs-rosh">yrs_rosh</a> 2022
+          © <a target="_blank" href="https://github.com/yrs-rosh">yrs_rosh</a> {new Date().getFullYear()}
         </div>
       </div>
     );

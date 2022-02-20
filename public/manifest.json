@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Rosh",
+  "name": "Rosh",
+  "description": "Roshfolio A personal portfolio website of Roy Rakesh",
   "icons": [
     {
       "src": "favicon.ico",

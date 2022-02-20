@@ -7,7 +7,7 @@ import Social from "../Components/Social";
 
 function Contact() {
   return (
-    <div className=" frontpage pagesize">
+    <div className=" frontpage pagesize autosize">
       <div className="container">
         <h1>Keep in touch</h1>
         <Grid item>

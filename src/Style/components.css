@@ -194,7 +194,7 @@ width: fit-content;
 }
 
 .dp{
-  background-image: url(/src/asset/profile.jpg);
+  background-image: url(/public/asset/profile.jpg);
   background-size: cover;
   border-radius: 50%;
   height: 300px;
@@ -208,10 +208,10 @@ width: fit-content;
 /* background animation */
 .leaf {
   position: absolute;
-  width: 80%;
+  width: 78%;
   height: 100%;
   top: 0;
-  left: 20%;
+  left: 22%;
 }
 .leaf img{
 
@@ -356,6 +356,7 @@ img{
 
   .autosize{
     height: auto;
+    padding-bottom: 15vh;
   }
 
   /* Aboutme */
