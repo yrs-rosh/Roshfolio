@@ -87,7 +87,7 @@
 }
 
 .pagesize {
-  height: 100vh;
+  height: 90vh;
 }
 
 .container{
@@ -212,11 +212,6 @@ width: fit-content;
   height: 100%;
   top: 0;
   left: 22%;
-}
-.leaf img{
-
-  width: 100px;
-  height: 100px;
 }
 
 .leaf div {
