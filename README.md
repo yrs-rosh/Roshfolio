@@ -7,7 +7,7 @@ A personal portfolio website made using Reactjs
 - Install dependencies: run `npm install` in root project
 - run `npm start` to launch the project. You'll be redirected to port 3000 of your localhost.
 
-
+![Demo-Gif](public/asset/portfolio.png)
 
 # Getting Started with Create React App
 
