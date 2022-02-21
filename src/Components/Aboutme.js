@@ -17,10 +17,14 @@ function Aboutme() {
             for opportunity as a react dev.{" "}
           </p>
           <Link to="/more">
-          <Button variant="contained" href="/notfound">
-            know more about me
+          <Button sx={{margin:"10px", backgroundColor: "rgba(18,18,18,0.5)" }} variant="contained" href="/notfound">
+            know more
           </Button>
           </Link>
+          
+          <Button sx={{margin:"10px", backgroundColor: "rgba(18,18,18,0.5)" }}  variant="contained" href="./asset/Resume.pdf">
+            Resume
+          </Button>
           
         </div>
       </div>
